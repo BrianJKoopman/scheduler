@@ -23,9 +23,13 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        # List your package dependencies here, e.g.:
-        # "numpy>=1.20",
-        # "pandas>=1.3",
+        "flask",
+        "flask-cors",
+        "gunicorn",
+        "numpy",
+        "pyyaml",
+        "pandas",
+        #"schedlib @ git+https://github.com/simonsobs/scheduler.git@main",
     ],
 )
 
