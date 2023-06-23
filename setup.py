@@ -9,6 +9,7 @@ setup(
         "toolz",
         "pandas",
         "chex",
-        "pyephem"
+        "pyephem",
+        "typing-extensions",
     ],
 )
